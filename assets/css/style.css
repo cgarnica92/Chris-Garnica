@@ -1,3 +1,20 @@
+
+.navSection {
+    display: flex;
+    margin: 1%;
+}
+
+.navLeft {
+    width: 10%;
+    justify-content: flex-start;
+}
+
+.navRight {
+    width: 90%;
+    justify-content: flex-end;
+}
+
+/*Base Styling for Section Flex Boxes*/
 .section {
     display: flex;
     margin: 5%;
@@ -6,11 +23,13 @@
 .left {
     border-right: 5px solid;
     margin: 5%;
-    padding: 10%;
+    padding: 2%;
     justify-content: flex-start;
+    width:15%;
 
 }
 
 .right {
     margin: 5%;
+    width: 80%;
 }

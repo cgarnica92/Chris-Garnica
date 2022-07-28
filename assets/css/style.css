@@ -1,0 +1,16 @@
+.section {
+    display: flex;
+    margin: 5%;
+}
+
+.left {
+    border-right: 5px solid;
+    margin: 5%;
+    padding: 10%;
+    justify-content: flex-start;
+
+}
+
+.right {
+    margin: 5%;
+}
